@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery22.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.js"></script>
+    <title>Document</title>
+
+    <style>
+      *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          
+      }
+
+      #men h2{
+          color: white;
+          font-weight: bolder;
+          font-size: 40px;
+          padding-top: 120px;
+      }
+
+      .btn{
+          background-color: #6055a4;
+          color: white;
+          font-weight: 600;
+          font-size: 15px;
+          box-shadow: 0px 5px 2px black;
+          margin-top: 30px;
+      }
+
+      .btn-block{
+          width: 85%;
+      }
+
+      .well{
+          width: 80%;
+          margin-top: 40px;
+          margin-left: 12px;
+          box-shadow: 0 5px 2px;
+      }
+
+      .form-group input{
+          border: 2px silver black;
+          margin-top: 20px;
+    
+      }
+
+      .form-group input:focus{
+          border: 2px solid black;
+          background-color: #bcbcbc;
+          color: black;
+      }
+
+      #btnn:hover{
+          transform: scale(1.1);
+      }
+
+      .form-group #yet{
+          opacity: .5;
+          font-weight: 900;
+          font-size: 10px;
+          padding-left: 20px;
+          padding-top: 20px;
+      }
+
+      .form-group #yet a{
+          color: orangered;
+          text-decoration: none;
+          font-weight: bolder;
+      }
+    </style>
+</head>
+
+
+
+
+<body>
+   <div class="container-fluid" style="background-color: #ff7a7b; height:600px; min-height: 900px;" >
+       <div class="container" style="margin-top: 20px;">
+           <div class="row" id="men">
+               <div class="col-md-6">
+                   <h2>Learn to code by <br> watching others</h2>
+                   <p style="color: white; font-weight:600; Font-size:15px; letter-spacing: 1px; opacity: .6; padding-top: 20px;">See how experienced developers solve problems in real-time Watcing scripted tutorials is great, but undertsnading how developers think invaluable.</p>
+               </div>
+               <div class="col-md-6">
+                   <div class="d-grid">
+                       <button type="button" class="btn btn-block">Try it free 7 days then $20/mo. thereafter</button>
+                   </div>
+
+                   <div class="well">
+                       <form action="">
+                           <div class="form-group">
+                               <input type="text" class="form-control" placeholder="First Name">
+                           </div>
+
+                           <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn-block btn-lg" id="btnn" style="background-color:#37cc8c; box-shadow: 0 3px 4px black; margin-left: 30px; font-weight: 600;">CLAIM YOUR FREE TRIAL</button>
+                        </div>
+
+                        <div class="form-group">
+                            
+                           <p id="yet">By clicking the button you are agreeing to our <a href="">Terms and Services</a></p>
+                        </div>
+
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+</body>
+</html>
